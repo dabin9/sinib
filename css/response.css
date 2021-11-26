@@ -1,0 +1,248 @@
+/*
+  가장중요한 조건
+  가로스롤은 절대 생기면 안된다.
+  가로스크롤이 생기는이유는
+  - 위드가 살이있는영역 ex)1200 1000px
+  - absolute ->부모한테 무조건 overflow hidden을 줘야됨
+  모바일 확인은 최고 작은 사이즈인 320 (크롬모바일 아이폰se) 확인시 잘나오묜 끝.
+ */
+
+/* 실콘텐츠 + 100 */
+/* 1400 작은pc 사이즈,작은 모니터  */
+
+@media screen and (max-width: 1400px) {
+    /* header */
+    /* main */
+    
+    /* footer */
+  }
+  
+  
+  /*
+  테블릿
+  중대적인 레이아웃 변화
+  폰트사이즈 줄여준다 아래와같은룰로
+  */
+  @media screen and (max-width: 1024px) {
+    .lighthouse_box{
+      left: 150px;
+      max-width: 15px;
+      top: 53%;
+    }
+    .about_area .txt_wrap strong{font-size: 55px;}
+    .about_area .txt_wrap p{font-size: 30px;}
+    .skill_area strong{font-size: 48px;}
+    .skill_area p{font-size: 27px;}
+
+    .project_area ul{
+      height: 810px;
+    }
+    .project_area ul li {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+      padding: 0;
+
+}
+.project_area ul li .txt_wrap {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+.project_area ul li .img_wrap{
+  width: 100%;
+}
+.project_area .txt_wrap .page{
+  display: inline-block;
+}
+.project_area .txt_wrap em{display: inline-block;}
+.project_area .txt_wrap .days{display: inline-block;}
+.project_area .count {
+    
+    width: 100%;
+    bottom: auto;
+    left: auto;
+        
+  }
+  .project_area .btn {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    bottom:auto;
+    left: auto;
+    z-index: 50;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.project_area .btn.prev {
+    left: 50px;
+}
+.project_area .btn.next {
+    right: 50px;
+    left: auto;
+}
+.project_area .count {
+    width: auto;
+    bottom: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-25px, -50%);
+}
+.mountain {
+    height: 42%;
+    bottom: 0px;
+    position: fixed;
+    left: 50px;
+}
+}
+  /*
+   모바일
+   *대대적 레이아웃 변화
+   사이드 패딩 15~20
+   대폰트 font-size: 38~28
+   중폰트 18~28
+   소폰트 12~ 16
+   웬만한 레이아웃은 1줄 아니면 2줄
+   320으로 가야함
+  */
+  @media screen and (max-width: 768px) {
+      body{
+          
+      }
+    header{
+       
+    }
+    header .sun .img_wrap{
+      width: 70px;
+    }
+    .main_vis .logo_box {
+    position: fixed;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    border: 4px solid #34495e;
+    color: #34495e;
+    padding: 3px;
+}
+.main_vis .logo_box h1 {
+    display: block;
+    text-align: center;
+    font-size: 38px;
+    padding: 15px;
+    margin: 0;
+  }
+.main_vis .logo_box p {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.boatright, .boatlight{
+  width: 232px;
+    top: 56%;
+    left: 45%;
+    z-index: 0;
+}
+.seagull_box {
+    max-width: 34px;
+    position: fixed;
+    top: 70%;
+}
+.lighthouse_box {
+   display: none;
+}
+.ocean{
+  height:1%;
+}
+
+.about_area .txt_wrap strong{
+  font-size: 38px;
+}
+.about_area .txt_wrap p{
+  font-size: 18px;
+}
+.about_area .txt_wrap strong{
+  font-size: 34px;
+}
+.about_area .txt_wrap p{
+  font-size: 18px;
+}
+.skill_area strong{
+  font-size: 28px;
+}
+.skill_area p{
+  font-size: 16px;
+}
+.about_area .txt_wrap{
+  padding-right: 0;
+}
+.about_right{
+  max-width: initial;
+}
+.about_area .txt_wrap{
+  opacity: 1;
+}
+.skill_area{
+  opacity: 1;
+  padding-left: 0;
+}
+.about_area{
+  margin-bottom: 0;
+  padding-left: 0;
+  margin: 0;
+}
+.skill_area ul {
+    max-width: inherit;
+    margin: 0 50px;
+}
+.skill_area p{
+  padding-left: 0;
+}
+.project_area .txt_wrap .page{
+  font-size: 18px;
+}
+.project_area .txt_wrap strong{
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+.project_area .txt_wrap .days{
+  font-size: 18px;
+}
+.project_area .txt_wrap .to{
+  font-size: 18px;
+}
+.project_area .txt_wrap a{
+  font-size: 18px;
+  padding: 10px;
+}
+.project_area .btn.prev{
+  bottom: 15%;
+}
+
+.project_area .btn.next{
+  bottom: 15%;
+}
+
+.project_area .count{
+  bottom: 15%;
+}
+
+.contact_area > strong{
+  padding-right: 20px;
+  font-size: 38px;
+}
+
+.contact_area ul{
+  margin-right: 20px;
+}
+.contact_area ul li span{
+  font-size: 12px;
+}
+.mobile_img{width: 100%;}
+}

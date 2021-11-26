@@ -1,0 +1,26 @@
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: rgb(211, 3, 3);
+}
+nav{}
+section{}
+h2{}
+.container p{}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+h2{
+    writing-mode: vertical-rl;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.582);
+}

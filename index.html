@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹퍼블리셔 포트폴리오</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+
+
+
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/response.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <ul class="sun clearfix">
+            <li class="img_wrap">
+                <img src="images/header/x.png" alt="" class="sun_img">
+            </li>
+            <li>
+                <span class="sunClick">CLICK ME♬</span>
+                <span class="musicOn">Drop the Beat!</span>
+            </li>
+        </ul>
+        <audio src="./audio/yumyumyum.mp3" id="music"></audio>
+
+        <div class="scroll_direction">
+            <div class="img_wrap">
+                <img src="images/header/double-down-.svg" alt="" class="arrow-bottom">
+            </div>
+        </div>
+        <nav class="menu-btn">
+            <div class="menu-btn_burger">
+            </div>
+        </nav>
+        <div class="sub_menu paraNav">
+
+            <ul>
+                <li class="active"><a href="#section1">ABOUT</a></li>
+                <li><a href="#section2">SKILL</a></li>
+                <li><a href="#section3">PROJECT</a></li>
+                <li><a href="#section4">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <nav id="nav">
+            <section id="section1" class="content__item main_vis">
+                <div class="logo_box">
+                    <h1>Hello!</h1>
+                    <p>Are you ready? trust me!</p>
+                </div>
+                <div class="cloud_wrap">
+                    <ul class="list01 clearfix">
+                        <li class="left"><img src="images/main_vis/cloud.png" alt=""></li>
+                    </ul>
+                    <ul class="list02 clearfix">
+                        <li class="right"><img src="images/main_vis/cloud.png" alt=""></li>
+                    </ul>
+                </div>
+
+                <div class="squear_sea"></div>
+                <div class="mountain">
+                    <div class="img_wrap">
+                        <img src="images/main_vis/mou.png" alt="">
+                    </div>
+                    <div class="moun_box"></div>
+                </div>
+                <img src="images/main_vis/boatRight.png" alt="" class="boatright">
+                <img src="images/main_vis/boatLight.png" alt="" class="boatlight" style="display: none;">
+                <div class="seagull_box">
+                    <img src="images/main_vis/sea-gull.png" alt="" class="seagull">
+                </div>
+                <div class="lighthouse_box">
+                    <img src="images/main_vis/lighthouse.png" alt="" class="lighthouse">
+                </div>
+
+                <div class="ocean">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            <section id="section2" class="content__item container">
+                <h2 class="right">ABOUT</h2>
+                <div class="about_area clearfix">
+                    <div class="img_wrap boat_step1">
+                        <img src="images/about/left-stone.png" alt="" class="left-stone">
+                    </div>
+                    <div class="txt_wrap left about_left">
+                        <strong class="text_step1">반갑습니다!</strong>
+                        <p class="about_left_last text_step2">
+                            웹퍼블리셔 <span class="yellow">다빈</span>입니다.<br>
+                            저의 웹사이트에 와주셔서 감사합니다<br>
+                            잘 부탁드립니다!
+                        </p>
+                    </div>
+                    <div class="img_wrap right boat_step2">
+                        <img src="images/about/right-stone.png" alt="" class="right-stone">
+                    </div>
+
+                    <div class="txt_wrap right about_right">
+                        <strong class="text_step3">
+                            누구나 쉽게<br>
+                            누구나 편하게
+                        </strong>
+                        <p class="text_step4">이용할수 있는 'UX', 'UI'를 만드는 것이 목표입니다.</p>
+                        <p class="text_step5">사람들에게 <span class="yellow">"덕분에"</span>라는 말과 함께 보이지 않는 곳에서 봉사정신이 깃든
+                            멋진 사람으로
+                            기억되고
+                            싶습니다.</p>
+                        <p class="last text_step6">저만의 특별한 긍정적인 마인드로 항상 겸손한 자세를 가지며 멈추지않겠습니다.</p>
+                    </div>
+                </div>
+                <div class="skill_area boat_step3">
+                    <h2 class="right boat_step4">SKILL</h2>
+                    <ul>
+                        <li>
+                            <strong>HTML5</strong>
+                            <p>
+                                nav와 button 등 웹접근성에 준수하면서,
+                                완료된 모션에 맞게 효율적이고 논리적으로 구조가 떠오르며,
+                                시안에 맞게 최대한 똑같이 배치하려고 노력합니다
+                            </p>
+                        </li>
+                        <li>
+                            <strong>CSS3</strong>
+                            <p>
+                                개발자 도구를 이용하여 부족한
+                                부분을 잘 캐치하여 만들어냅니다
+                                요즘 트렌드에 맞게 애니메이션을 transition,
+                                addclass 등을 이용하여 상황에 맞게 만들수 있습니다
+                            </p>
+                        </li>
+                        <li>
+                            <strong>JAVASCRIPT</strong>
+                            <p>
+                                swiper 슬라이드와 캐러셀슬라이드를 만들수 있으며,
+                                반응형 미디어쿼리가 가능하며, 간단한 모달창
+                                설계가 가능합니다.
+                                현재 JS로 하는 배열 등 JS와 JQ를 상황에 맞게 쓸수 있도록
+                                복사붙혀놓기가 아닌 개발에 맞게 제 머릿속으로 직접 쓸수 있도록 열심히 공부하고 있습니다!
+                            </p>
+                        </li>
+                        <li>
+                            <strong>ADOBE</strong>
+                            <p>
+                                영상제작 7년차 노하우로
+                                상업용 영상과 사진 제작에 맞는
+                                여러 프로그램을 다룰줄 압니다
+                                가장 잘 하는것은 촬영과 편집입니다
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="section3" class="content__item project_area boat_step5">
+                <h2 class="right">PROJECT</h2>
+                <div class="swiper-container proj_slide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="txt_wrap">
+                                <span class="page red">#01</span>
+                                <em>Responsive Website</em>
+                                <strong>(주)이니스프리</strong>
+                                <div class="days">
+                                    <span>제작기간</span>
+                                    <span>4일</span>
+                                </div>
+                                <div class="to">
+                                    <span>퍼블리싱 : 100%</span>
+                                    <span>디자인 : 디자인은 디비컷에 있는 레이아웃으로 구성하였습니다.</span>
+                                </div>
+                                <a href="https://dabin9.github.io/innisfreeDB/">VIEW SITE</a>
+                            </div>
+                            <div class="img_wrap">
+                                <img src="images/project/반응형01.png" alt="" class="respon_img">
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="txt_wrap">
+                                <span class="page red">#02</span>
+                                <em>Responsive Website</em>
+                                <strong>(주)화진산업</strong>
+                                <div class="days">
+                                    <span>제작기간</span>
+                                    <span>2주</span>
+                                </div>
+                                <div class="to">
+                                    <span>퍼블리싱 : 100%</span>
+                                    <span>디자인 : 디자인은 디비컷에 있는 레이아웃으로 구성하였습니다.</span>
+                                </div>
+                                <a href="https://dabin9.github.io/hwajinR/">VIEW SITE</a>
+                            </div>
+                            <div class="img_wrap">
+                                <img src="images/project/반응형웹크기.png" alt="" class="respon_img">
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="txt_wrap">
+                                <span class="page red">#02</span>
+                                <em>Mobile</em>
+                                <strong>(주)무신사</strong>
+                                <div class="days">
+                                    <span>제작기간</span>
+                                    <span>4일</span>
+                                </div>
+                                <div class="to">
+                                    <span>퍼블리싱 : 100%(js와 제이쿼리를 사용했습니다. :))</span>
+                                    <span>디자인 : 디자인은 디비컷에 있는 레이아웃으로 구성하였습니다.</span>
+                                </div>
+                                <a href="https://dabin9.github.io/musinsaMobile/">VIEW SITE</a>
+                                <div class="pagination_box">
+                                </div>
+                            </div>
+                            <div class="img_wrap m">
+                                <img src="images/project/mobile.png" alt="" class="mobile_img">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn prev">←</div>
+                    <div class="btn next">→</div>
+                    <div class="count swiper-pagination"></div>
+                </div>
+            </section>
+            <section id="section4" class="content__item contact_area boat_step6">
+                <h2 class="left">CONTACT</h2>
+                <strong>
+                    끝까지<br>
+                    봐주셔서<br>
+                    감사합니다<br>
+                </strong>
+                <ul>
+                    <li class="sns_box">
+                        <a href="javascript:;" class="mail">
+                            <img src="images/contact/naverLogo.png" alt="">
+                        </a>
+                        <a href="javascript:;" class="calling">
+                            <img src="images/contact/phone-call-icon.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <span>
+                            웹퍼블리셔 s다빈 인적사항
+                        </span>
+                        <span class="detail-btn" id="detailBtn">
+                            자세히 보기
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+
+    </main>
+    <footer>
+        <span>ⓒ Made by Sofia in 2021.</span>
+    </footer>
+
+    <div class="myself">
+        <div class="txt_wrap">
+            <div class="img_wrap">
+                <img src="images/main_vis/sea-gull.png" alt="">
+            </div>
+            <ul class="name">
+                <li>
+                    <p class="web">웹퍼블리셔</p>
+                    <p class="davin">s 다 빈</p>
+                    <span class="bar">-</span>
+                </li>
+                <li>
+                    <span class="age">1000.09.29 만 200세</span>
+                </li>
+            </ul>
+            <strong>학력&교육 이수사항</strong>
+            <ul class="info">
+                <li>
+                    <em>2013</em>
+                    <p>학력&교육 이수사항</p>
+                </li>
+                <li>
+                    <em>2021</em>
+                    <p>학력&교육 이수사항</p>
+                </li>
+                <li>
+                    <em>2014</em>
+                    <p>학력&교육 이수사항</p>
+                </li>
+            </ul>
+            <button class="myself_btn">닫기</button>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
